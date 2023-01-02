@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.weracehere.wrh_org">
-   <application
-        android:label="wrh_org"
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="We Race Here"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
